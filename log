@@ -75,3 +75,17 @@ Fri, May  2, 2025  9:17:13 PM:
  tests:  20|2
 total_score: 45/70
 cd582e0
+Fri, May  2, 2025  9:22:21 PM: 
+ treemap.c | 20 ++++++++++++++++++--
+ 1 file changed, 18 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'nextTreeMap':
+treemap.c:210:5: error: expected ';' before 'return'
+     return (parent != NULL) ? parent->pair : NULL;
+     ^~~~~~
+treemap.c:211:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+f4c6718
