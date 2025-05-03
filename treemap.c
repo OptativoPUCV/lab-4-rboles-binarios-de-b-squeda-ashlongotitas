@@ -206,6 +206,6 @@ Pair * nextTreeMap(TreeMap * tree)
         current = parent;
         parent = parent->parent;
     }
-    tree->current = parent
-    return (parent != NULL) ? parent->pair : NULL;
+    tree->current = parent;
+    return (parent != NULL) ? parent->pair : NULL;  
 }
